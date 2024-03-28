@@ -4,3 +4,6 @@ The project "Graphing Revenge: A Network Analysis of 'The Count of Monte Cristo'
 
 The Jupyter Notebook is available here:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AlessandraFa/montecristo-network/master?labpath=Count_of_Monte_Cristo_Network_Analysis.ipynb)
+
+Alessandra Failla is responsible for the content of this project.
+E-mail: alessandra.failla2@studio.unibo.it
