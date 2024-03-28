@@ -1,4 +1,4 @@
-regex_dict = {r"(?<!Louis\s)(?<!old\s)\b(Edmond\s+)?\b(?<!\w)(Dant[èe]s|Edmond|\b(The\s)?\b([Cc]ount\sof\s)?Monte\sCristo|Count\s+Monte\s+Cristo|Sinbad\b(\sthe\s[sS]ailor)?|\b([Ll]ord\s)?Wilmore|\b([Aa]bb[ée]\s)?Busoni|Zatarra|Maltese)(?!\w)": "EdmondDantes", # all + add|(?<!\w)Abb[ée](?!\sFaria) for chapters 21-40 __1__2__3__4__5__6__7__8
+regex_dict_86_87 = {r"(?<!Louis\s)(?<!old\s)\b(Edmond\s+)?\b(?<!\w)(Dant[èe]s|Edmond|\b(The\s)?\b([Cc]ount\sof\s)?Monte\sCristo|Count\s+Monte\s+Cristo|Sinbad\b(\sthe\s[sS]ailor)?|\b([Ll]ord\s)?Wilmore|\b([Aa]bb[ée]\s)?Busoni|Zatarra|Maltese)(?!\w)": "EdmondDantes", # all + add|(?<!\w)Abb[ée](?!\sFaria) for chapters 21-40 __1__2__3__4__5__6__7__8
  r"(?<!\w)\b(Louis\s|old\s)+Dantès(?!\w)": "LouisDantes", # 1-40, 100-117 __1__2__6
  r"\b(Merc[éeè]d[éeè]s|Madame\sde\sMorcerf)(?!\w)": "Mercedes", # all except 86-87 __1__2__3__4__5__7__8
  r"\b(Fernand)\b(\s+Mondego)?\b|(?<!\w)([Cc]omte\s+de\s+[Mm]orcerf)(?!\w)|Morcerf(?!\w)": "Fernand", #all |replace alternative Morcerf(?!\w) for chapters 86-88 __1__2__3__4__5__6__7__8
