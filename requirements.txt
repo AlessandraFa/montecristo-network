@@ -1,0 +1,9 @@
+networkx==2.8.4
+nltk==3.7
+mplcursors==0.5.3
+plotly==5.9.0
+re==2.2.1
+matplotlib==3.7.0
+watermark==2.4.3
+numpy==1.23.5
+pandas==1.5.3
